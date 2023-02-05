@@ -15,7 +15,7 @@ body {
 
 .sticky-narrow {
     position: fixed;
-    bottom: 10px;
+    bottom: 5px;
     right: 30px;
     width: 70px;
     align-self:self-end;
@@ -117,6 +117,7 @@ body {
 .first-part-top p {
     width: 90%;
     line-height: 2rem;
+    font-size: 1rem;
 }
 
 /* .pads-images img{
@@ -184,7 +185,7 @@ body {
     align-items: center;
     height: 105vh;
     background-image:
-        linear-gradient(rgba(255, 255, 255, 0.536), rgba(218, 195, 235, 0.456)),
+        linear-gradient(rgba(255, 255, 255, 0.27), rgba(218, 195, 235, 0.487)),
         url("img/gradient-1.png");
     background-position: center;
     background-size: cover;
@@ -234,6 +235,7 @@ body {
     width: 55vw;
     text-align: center;
     font-size: 2rem;
+    font-weight: 200;
 }
 
 .logo-brands {
@@ -249,7 +251,7 @@ body {
 footer {
     background-color: white;
     color: var(--main-violet);
-    height: 4vh;
+    height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -258,4 +260,5 @@ footer {
 footer p {
     margin: 0;
     font-weight: 700;
+    font-size: 1.2rem;
 }
